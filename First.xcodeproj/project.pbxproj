@@ -13,6 +13,7 @@
 		D8DD0F8921A34A820085A6FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8DD0F8821A34A820085A6FD /* Assets.xcassets */; };
 		D8DD0F8C21A34A820085A6FD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8DD0F8A21A34A820085A6FD /* LaunchScreen.storyboard */; };
 		D8DD0F9721A34A820085A6FD /* FirstTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8DD0F9621A34A820085A6FD /* FirstTests.swift */; };
+		D8DD0FA221A34AB00085A6FD /* Hater.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8DD0FA121A34AB00085A6FD /* Hater.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		D8DD0F9221A34A820085A6FD /* FirstTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FirstTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8DD0F9621A34A820085A6FD /* FirstTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstTests.swift; sourceTree = "<group>"; };
 		D8DD0F9821A34A820085A6FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D8DD0FA121A34AB00085A6FD /* Hater.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hater.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 				D8DD0F8821A34A820085A6FD /* Assets.xcassets */,
 				D8DD0F8A21A34A820085A6FD /* LaunchScreen.storyboard */,
 				D8DD0F8D21A34A820085A6FD /* Info.plist */,
+				D8DD0FA121A34AB00085A6FD /* Hater.swift */,
 			);
 			path = First;
 			sourceTree = "<group>";
@@ -199,6 +202,7 @@
 			files = (
 				D8DD0F8421A34A800085A6FD /* ViewController.swift in Sources */,
 				D8DD0F8221A34A800085A6FD /* AppDelegate.swift in Sources */,
+				D8DD0FA221A34AB00085A6FD /* Hater.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

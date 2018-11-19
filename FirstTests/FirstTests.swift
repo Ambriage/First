@@ -31,4 +31,28 @@ class FirstTests: XCTestCase {
         }
     }
 
+    func testHaterStartsNicely() {
+        let hater = Hater()
+
+        XCTAssertFalse(hater.hating)
+    }
+
+    func testHaterHatesAfterBadDay() {
+        var hater = Hater()
+
+        hater.hadABadDay()
+
+        XCTAssertTrue(hater.hating)
+    }
+
+    /**
+     Testing that a hater stops hating after a good day.
+     */
+    func testHaterHappyAfterGoodDay() {
+        var hater = Hater()
+
+        hater.hadAGoodDay()
+
+        XCTAssertFalse(hater.hating)
+    }
 }

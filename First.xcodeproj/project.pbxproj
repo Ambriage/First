@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D816A32921A35D1600C2B820 /* Convertor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D816A32821A35D1600C2B820 /* Convertor.swift */; };
+		D816A32B21A35DDF00C2B820 /* ConverterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D816A32A21A35DDF00C2B820 /* ConverterTests.swift */; };
 		D8DD0F8221A34A800085A6FD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8DD0F8121A34A800085A6FD /* AppDelegate.swift */; };
 		D8DD0F8421A34A800085A6FD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8DD0F8321A34A800085A6FD /* ViewController.swift */; };
 		D8DD0F8721A34A800085A6FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8DD0F8521A34A800085A6FD /* Main.storyboard */; };
@@ -27,6 +29,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D816A32821A35D1600C2B820 /* Convertor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Convertor.swift; sourceTree = "<group>"; };
+		D816A32A21A35DDF00C2B820 /* ConverterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConverterTests.swift; sourceTree = "<group>"; };
 		D8DD0F7E21A34A800085A6FD /* First.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = First.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8DD0F8121A34A800085A6FD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D8DD0F8321A34A800085A6FD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -86,6 +90,7 @@
 				D8DD0F8A21A34A820085A6FD /* LaunchScreen.storyboard */,
 				D8DD0F8D21A34A820085A6FD /* Info.plist */,
 				D8DD0FA121A34AB00085A6FD /* Hater.swift */,
+				D816A32821A35D1600C2B820 /* Convertor.swift */,
 			);
 			path = First;
 			sourceTree = "<group>";
@@ -93,6 +98,7 @@
 		D8DD0F9521A34A820085A6FD /* FirstTests */ = {
 			isa = PBXGroup;
 			children = (
+				D816A32A21A35DDF00C2B820 /* ConverterTests.swift */,
 				D8DD0F9621A34A820085A6FD /* FirstTests.swift */,
 				D8DD0F9821A34A820085A6FD /* Info.plist */,
 			);
@@ -200,6 +206,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D816A32921A35D1600C2B820 /* Convertor.swift in Sources */,
 				D8DD0F8421A34A800085A6FD /* ViewController.swift in Sources */,
 				D8DD0F8221A34A800085A6FD /* AppDelegate.swift in Sources */,
 				D8DD0FA221A34AB00085A6FD /* Hater.swift in Sources */,
@@ -210,6 +217,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D816A32B21A35DDF00C2B820 /* ConverterTests.swift in Sources */,
 				D8DD0F9721A34A820085A6FD /* FirstTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
